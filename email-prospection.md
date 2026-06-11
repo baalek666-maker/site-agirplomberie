@@ -1,50 +1,35 @@
-# Email de prospection – Agir Plomberie
-
-## Destinataire
-Pierre Dulac <pierre.dulac@9business.fr>
-
-## Objet
-J'ai créé un site vitrine pour Agir Plomberie — il est en ligne
-
-## Corps du mail
-
-Bonjour M. Dulac,
-
-Je m'appelle [Votre prénom], je suis développeur web à Annecy et je travaille exclusivement avec des artisans du bâtement pour leur présence en ligne.
-
-J'ai repéré Agir Plomberie sur Google : 4,9 étoiles, 77 avis, 25 ans d'expérience. C'est solide.
-
-Seul hic : votre fiche web est une page Solocal (agirplomberie.site-solocal.com). Elle ne vous appartient pas, elle est difficile à retrouver sur Google, et elle ne valorise pas votre travail.
-
-**J'ai pris l'initiative de vous créer un véritable site vitrine :**
-
-👉 https://baalek666-maker.github.io/site-agirplomberie/
-
-Responsive, rapide, avec vos avis clients, vos services, votre contact. C'est à vous si vous le voulez.
-
-**Si ça vous intéresse, voici ce qu'on peut faire :**
-- Adapter le contenu avec vos photos et textes exacts
-- Le mettre sur un nom de domaine à VOUS (ex : agir-plomberie-annecy.fr)
-- Référencement local optimisé pour "plombier Annecy"
-- Pas d'engagement. Sans frais d'entrée.
-
-Si le projet ne vous intéresse pas, le site sera retiré d'ici quelques jours. Aucune formalité.
-
-Je vous laisse me dire ce que vous en pensez.
-
-Bonne journée,
-
-[Votre prénom]
-[Email]
-[Numéro de téléphone]
+Objet : Votre plomberie mérite un site à la hauteur de votre sérieux 🔧
 
 ---
 
-**PS** — Le site est déjà fonctionnel. Vous pouvez l'ouvrir sur mobile, il s'adapte. Et vos clients peuvent vous appeler en un clic.
+Bonjour Monsieur Dulac,
 
-## Statut
-⏳ Brouillon — prêt à envoyer
+Je me permets de vous écrire car je connais Agir Plomberie — pas seulement de nom, mais pour avoir entendu ce que vos clients en disent dans les avis, et pour connaître la réputation que vous avez bâtie rue Burgonde depuis plus de 25 ans.
 
-## Historique
-- 2026-06-11 : Site vitrine créé et déployé sur GitHub Pages
-- 2026-06-11 : Email rédigé selon le ton Gruau Lorrain (conversationnel, pas agressif)
+4,9 étoiles sur Google. 77 avis. Des clients qui vous rappellent chaque fois qu'ils ont un problème, qui soulignent votre réactivité, votre ponctualité, votre transparence. C'est rare. Et c'est exactement le genre de sérieux qui mérite d'être visible en ligne.
+
+Le problème ? Aujourd'hui, quand quelqu'un tape « plombier Annecy » sur Google, il tombe sur des annuaires génériques ou sur votre minisite Solocal — pas sur vous. Pas sur Agir Plomberie. Votre entreprise n'a pas de site web propre, et entre nous — c'est une opportunité.
+
+J'ai créé pour vous un site vitrine sur-mesure, pensé pour Agir Plomberie :
+
+• **Vos prestations mises en avant** — Chaudières gaz, chauffe-eaux, robinetterie, dépannage urgent… chaque service a sa carte
+• **Vos horaires & zone d'intervention** — Plus besoin de chercher, tout est clair et accessible
+• **Un design artisanal et professionnel** — Pas un template générique, une vraie identité
+• **Optimisé pour Google et mobile** — Vos futurs clients vous trouvent en 2 clics
+• **Vos avis clients** — Ceux qui parlent le mieux de vous, ce sont vos clients
+
+Le site est prêt. Il est moderne, rapide, et il vous ressemble. Vous pouvez le voir ici dès maintenant.
+
+**Ce que je vous propose :**
+
+Vous prenez le site clé en main. Je m'occupe de tout — design, hébergement, nom de domaine, mises à jour, modifications. Vous n'avez rien à gérer technique.
+
+On en discute 5 minutes par téléphone ? Ça m'intéresse de comprendre ce qui vous ferait passer le cap.
+
+Bien cordialement,
+
+[Votre nom]
+[Votre téléphone]
+[Votre email]
+
+P.S. — « Pourquoi payer plus alors qu'il y a Agir Plomberie... Disponibilité et savoir-faire incomparables ! » Vos clients le disent. Un site web, c'est exactement ça : être visible là où on vous cherche.
