@@ -1,110 +1,283 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agir Plomberie – Plombier & Chauffagiste à Annecy</title>
-<style>
-  :root{--primary:#1e40af;--primary-light:#3b82f6;--accent:#0ea5e9;--bg:#f8fafc;--white:#fff;--text:#1f2937;--muted:#6b7280;}
-  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;}
-  body{color:var(--text);background:var(--bg);line-height:1.6;}
-  header{background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);color:#fff;padding:4rem 1rem 3rem;text-align:center;}
-  header h1{font-size:2.4rem;margin-bottom:.5rem;}
-  header p{font-size:1.15rem;opacity:.95;max-width:600px;margin:0 auto 1.5rem;}
-  .badge{background:rgba(255,255,255,.2);padding:.4rem 1rem;border-radius:9999px;display:inline-block;font-weight:600;font-size:.9rem;}
-  .container{max-width:960px;margin:0 auto;padding:2rem 1rem;}
-  section{margin-bottom:3rem;}
-  h2{font-size:1.6rem;color:var(--primary);margin-bottom:1rem;border-bottom:2px solid #e5e7eb;padding-bottom:.4rem;}
-  .intro{background:var(--white);padding:1.8rem;border-radius:12px;box-shadow:0 4px 6px -1px rgba(0,0,0,.05);}
-  .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;}
-  .card{background:var(--white);padding:1.2rem;border-radius:10px;box-shadow:0 2px 4px rgba(0,0,0,.04);border-left:4px solid var(--primary-light);}
-  .card h3{font-size:1rem;color:var(--primary);margin-bottom:.3rem;}
-  .card p{font-size:.9rem;color:var(--muted);}
-  .reviews{display:grid;gap:1rem;}
-  .review{background:var(--white);padding:1.2rem;border-radius:10px;box-shadow:0 2px 4px rgba(0,0,0,.04);}
-  .review .stars{color:#f59e0b;font-weight:700;margin-bottom:.4rem;}
-  .review q{font-style:italic;color:#374151;display:block;margin-bottom:.5rem;}
-  .review .author{font-size:.85rem;color:var(--muted);text-align:right;}
-  .contact{background:var(--white);padding:1.8rem;border-radius:12px;box-shadow:0 4px 6px -1px rgba(0,0,0,.05);}
-  .contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;}
-  .contact-item{display:flex;align-items:center;gap:.8rem;}
-  .contact-item span{font-size:1.3rem;}
-  .btn{display:inline-block;background:var(--primary);color:#fff;padding:.7rem 1.4rem;border-radius:8px;text-decoration:none;font-weight:600;transition:background .2s;}
-  .btn:hover{background:var(--primary-light);}
-  footer{text-align:center;padding:2rem 1rem;color:var(--muted);font-size:.85rem;}
-  @media (max-width:500px){header h1{font-size:1.8rem;}}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agir Plomberie — Plombier chauffagiste à Annecy. Remplacement chaudières gaz, chauffe-eaux, robinetterie, dépannage urgent.">
+    <title>Agir Plomberie — Plombier & Chauffagiste | Annecy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">🔧</span>
+                <span class="logo-text">Agir Plomberie</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Prestations</a></li>
+                <li><a href="#histoire">Le Pro</a></li>
+                <li><a href="#avis">Avis</a></li>
+                <li><a href="#horaires">Horaires</a></li>
+                <li><a href="#contact" class="nav-cta">Nous contacter</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
 
-<header>
-  <div class="badge">4,9 / 5 sur Google – 77 avis clients</div>
-  <h1>Agir Plomberie</h1>
-  <p>Plombier chauffagiste à Annecy. Remplacement de chaudières gaz, chauffe-eaux électriques, robinetterie et dépannage urgent. Artisan certifié au répertoire des métiers.</p>
-  <a href="tel:0450673391" class="btn">Appeler le 04 50 67 33 91</a>
-</header>
+    <!-- Hero -->
+    <header class="hero" id="accueil">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-badge">⭐ 4,9 / 5 sur Google — 77 avis clients</p>
+            <h1>La plomberie<br><em>avec sérieux</em></h1>
+            <p class="hero-sub">Remplacement de chaudières gaz, chauffe-eaux électriques, robinetterie et dépannage urgent à Annecy. Artisan certifié au répertoire des métiers.</p>
+            <div class="hero-actions">
+                <a href="tel:0450673391" class="btn btn-primary">Appeler maintenant</a>
+                <a href="#services" class="btn btn-outline">Nos prestations</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Défiler</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </header>
 
-<div class="container">
+    <!-- Services -->
+    <section class="section creations" id="services">
+        <div class="container">
+            <p class="section-label">Nos prestations</p>
+            <h2 class="section-title">Une expertise complète<br><em>pour votre confort</em></h2>
+            
+            <div class="creations-grid">
+                <div class="creation-card">
+                    <div class="creation-emoji">🔥</div>
+                    <h3>Chaudières gaz</h3>
+                    <p>Vente, installation et remplacement de chaudières gaz avec certification. Dépannage rapide et maintenance.</p>
+                    <span class="creation-tag">Chauffage</span>
+                </div>
+                <div class="creation-card">
+                    <div class="creation-emoji">⚡</div>
+                    <h3>Chauffe-eaux</h3>
+                    <p>Remplacement et réparation de chauffe-eaux électriques. Chaudières électriques en panne ? On intervient dans la journée.</p>
+                    <span class="creation-tag">Dépannage</span>
+                </div>
+                <div class="creation-card">
+                    <div class="creation-emoji">🚿</div>
+                    <h3>Robinetterie</h3>
+                    <p>Installation et remplacement de robinetterie, mitigeurs thermostatiques. Fuite de robinet ? Réparation en un clin d’œil.</p>
+                    <span class="creation-tag">Sanitaire</span>
+                </div>
+                <div class="creation-card">
+                    <div class="creation-emoji">🛁</div>
+                    <h3>Salle de bain</h3>
+                    <p>Création et rénovation complète de salles de bain. De l’évacuation à la robinetterie, on gère tout.</p>
+                    <span class="creation-tag">Rénovation</span>
+                </div>
+                <div class="creation-card">
+                    <div class="creation-emoji">🔧</div>
+                    <h3>Dépannage urgent</h3>
+                    <p>Fuite d’eau, fuite de gaz, débouchage de canalisation, petits travaux de plomberie. Disponible 6 jours sur 7.</p>
+                    <span class="creation-tag">Urgence</span>
+                </div>
+                <div class="creation-card">
+                    <div class="creation-emoji">❄️</div>
+                    <h3>Pompes à chaleur</h3>
+                    <p>Installation et entretien de pompes à chaleur. Devis gratuit pour tout projet de rénovation énergétique.</p>
+                    <span class="creation-tag">Énergie</span>
+                </div>
+            </div>
 
-  <section>
-    <h2>À propos</h2>
-    <div class="intro">
-      <p>Agir Plomberie est une entreprise expérimentée dans le remplacement de chaudières gaz, chauffe-eaux électriques et de robinetterie. Nous sommes un artisan certifié immatriculé au répertoire des métiers, fiers de vous offrir des services de qualité supérieure. Notre engagement en matière de durabilité est renforcé par notre utilisation de produits de haute qualité. Avec plus de <strong>25 ans d'expérience</strong>, vous pouvez être sûr que votre installation est entre de bonnes mains.</p>
+            <div class="creations-highlight">
+                <div class="highlight-text">
+                    <p class="highlight-quote">« Pourquoi payer plus alors qu'il y a Agir Plomberie... Disponibilité et savoir-faire incomparables ! »</p>
+                    <p class="highlight-author">— Jennifer Evain, cliente régulière</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Le Pro -->
+    <section class="section histoire" id="histoire">
+        <div class="container">
+            <div class="histoire-grid">
+                <div class="histoire-content">
+                    <p class="section-label">Le professionnel</p>
+                    <h2 class="section-title">Pierre Dulac<br><em>25 ans d'expérience</em></h2>
+                    <p>Agir Plomberie est une entreprise expérimentée dans le remplacement de chaudières gaz, chauffe-eaux électriques et robinetterie. Artisan certifié immatriculé au répertoire des métiers.</p>
+                    <p>Notre engagement en matière de <strong>durabilité</strong> est renforcé par notre utilisation de produits de haute qualité. Avec plus de 25 ans d'expertise en plomberie, votre installation est entre de bonnes mains.</p>
+                    <p>Situé au <strong>4 rue Burgonde à Annecy</strong>, nous intervenons sur Annecy, Cran-Gevrier, Seynod et les communes environnantes.</p>
+                </div>
+                <div class="histoire-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label">ans d'expérience</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">4,9<span class="stat-star">⭐</span></span>
+                        <span class="stat-label">77 avis Google</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">6/7</span>
+                        <span class="stat-label">jours d'ouverture</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">1h</span>
+                        <span class="stat-label">réactivité</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avis -->
+    <section class="section avis" id="avis">
+        <div class="container">
+            <p class="section-label">Avis clients</p>
+            <h2 class="section-title">Ce que disent<br><em>nos clients</em></h2>
+            <div class="avis-grid">
+                <div class="avis-card">
+                    <div class="avis-stars">★★★★★</div>
+                    <p class="avis-text">« Je fais appel à M. Dulac chaque fois que j'ai un problème. Disponibilité et savoir-faire incomparables ! Je remercie M. Dulac. »</p>
+                    <p class="avis-author">Jennifer Evain, septembre 2025</p>
+                </div>
+                <div class="avis-card">
+                    <div class="avis-stars">★★★★★</div>
+                    <p class="avis-text">« M. Dulac est un professionnel très consciencieux, efficace, réactif, ponctuel et très sympathique ! Je ne peux que le conseiller sans réserve. »</p>
+                    <p class="avis-author">C.J., mai 2026</p>
+                </div>
+                <div class="avis-card">
+                    <div class="avis-stars">★★★★★</div>
+                    <p class="avis-text">« Suite à une panne du chauffe-eau, M. Dulac a été très réactif et efficace. Rapport très précis des actions menées et transparence totale. »</p>
+                    <p class="avis-author">sojoly.28, octobre 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Horaires -->
+    <section class="section horaires" id="horaires">
+        <div class="container">
+            <div class="horaires-grid">
+                <div>
+                    <p class="section-label">Horaires d'ouverture</p>
+                    <h2 class="section-title" style="margin-bottom:32px">Quand nous<br><em>trouver</em></h2>
+                    <div class="horaires-table">
+                        <div class="horaire-row"><span class="jour">Lundi</span><span class="heures">14h00 – 19h00</span></div>
+                        <div class="horaire-row"><span class="jour">Mardi</span><span class="heures">13h30 – 20h00</span></div>
+                        <div class="horaire-row"><span class="jour">Mercredi</span><span class="heures">09h00 – 19h00</span></div>
+                        <div class="horaire-row"><span class="jour">Jeudi</span><span class="heures">14h00 – 19h00</span></div>
+                        <div class="horaire-row"><span class="jour">Vendredi</span><span class="heures">14h00 – 19h00</span></div>
+                        <div class="horaire-row"><span class="jour">Samedi</span><span class="heures">14h00 – 17h00</span></div>
+                        <div class="horaire-row horaire-ferme"><span class="jour">Dimanche</span><span class="heures">Fermé</span></div>
+                    </div>
+                    <div class="horaires-services" style="margin-top:24px">
+                        <span class="service-tag">Vente chaudières</span>
+                        <span class="service-tag">Installation chauffe-eau</span>
+                        <span class="service-tag">Dépannage urgent</span>
+                        <span class="service-tag">Robinetterie</span>
+                        <span class="service-tag">Pompe à chaleur</span>
+                    </div>
+                </div>
+                <div class="cta-card">
+                    <h3>Besoin d'un dépannage ?</h3>
+                    <p>Intervention rapide sur Annecy et environs. Ne laissez pas une fuite s'aggraver.</p>
+                    <a href="tel:0615735362" class="btn btn-primary btn-full">Appeler le 06 15 73 53 62</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <p class="section-label">Contact</p>
+            <h2 class="section-title" style="margin-bottom:40px">Nous<br><em>contacter</em></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>4 rue Burgonde<br>74000 Annecy</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p><a href="tel:0450673391">04 50 67 33 91</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <div>
+                            <h4>Mobile</h4>
+                            <p><a href="tel:0615735362">06 15 73 53 62</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:pierre.dulac@9business.fr">pierre.dulac@9business.fr</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🗺️</span>
+                        <div>
+                            <h4>Zone d'intervention</h4>
+                            <p>Annecy, Cran-Gevrier, Seynod et communes voisines du 74000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2775.3!2d6.1292!3d45.8992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDUzJzU3LjYiTiA2wrAwNyc0NS4yIkU!5e0!3m2!1sfr!2sfr!4v1" width="100%" height="380" style="border:0;border-radius:12px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-icon">🔧</span>
+                    <span class="logo-text">Agir Plomberie</span>
+                    <p>Plombier chauffagiste certifié au répertoire des métiers. Intervention rapide à Annecy depuis plus de 25 ans.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <a href="#accueil">Accueil</a>
+                    <a href="#services">Prestations</a>
+                    <a href="#histoire">Le Pro</a>
+                    <a href="#avis">Avis</a>
+                    <a href="#horaires">Horaires</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-legal">
+                    <h4>Mentions légales</h4>
+                    <p>SIREN 451 809 677<br>Agir Plomberie SARL<br>4 rue Burgonde, 74000 Annecy</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Site vitrine créé pour démonstration.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile CTA -->
+    <div class="mobile-cta">
+        <a href="tel:0450673391" class="mobile-cta-btn">Appeler Agir Plomberie</a>
     </div>
-  </section>
 
-  <section>
-    <h2>Nos prestations</h2>
-    <div class="services">
-      <div class="card"><h3>🔥 Chaudières gaz</h3><p>Vente, installation et remplacement de chaudières gaz avec certification.</p></div>
-      <div class="card"><h3>⚡ Chauffe-eaux</h3><p>Remplacement et réparation de chauffe-eaux électriques.</p></div>
-      <div class="card"><h3>🚿 Robinetterie</h3><p>Installation et remplacement de robinetterie, mitigeurs thermostatiques.</p></div>
-      <div class="card"><h3>🔧 Dépannage</h3><p>Fuite d'eau, fuite de gaz, débouchage et petits travaux de plomberie.</p></div>
-      <div class="card"><h3>🛁 Salle de bain</h3><p>Création et rénovation complète de salles de bain.</p></div>
-      <div class="card"><h3>❄️ Pompes à chaleur</h3><p>Installation et maintenance de pompes à chaleur.</p></div>
-    </div>
-  </section>
-
-  <section>
-    <h2>Avis clients</h2>
-    <div class="reviews">
-      <div class="review">
-        <div class="stars">★★★★★</div>
-        <q>Je fais appel à M. Dulac chaque fois que j'ai un problème. Disponbilité et savoir-faire incomparables ! Je remercie M. Dulac.</q>
-        <div class="author">— Jennifer Evain, septembre 2025</div>
-      </div>
-      <div class="review">
-        <div class="stars">★★★★★</div>
-        <q>M. Dulac est un professionnel très consciencieux, efficace, réactif, ponctuel et très sympathique ! Je ne peux que le conseiller sans réserve.</q>
-        <div class="author">— C.J., mai 2026</div>
-      </div>
-      <div class="review">
-        <div class="stars">★★★★★</div>
-        <q>Suite à une panne du chauffe-eau, M. Dulac a été très réactif et efficace. Rapport très précis des actions menées et transparence totale.</q>
-        <div class="author">— sojoly.28, octobre 2025</div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>Contact & zone d'intervention</h2>
-    <div class="contact">
-      <div class="contact-grid">
-        <div class="contact-item"><span>📍</span><div><strong>Adresse</strong><br>4 rue Burgonde, 74000 Annecy</div></div>
-        <div class="contact-item"><span>📞</span><div><strong>Téléphone</strong><br><a href="tel:0450673391">04 50 67 33 91</a></div></div>
-        <div class="contact-item"><span>📱</span><div><strong>Mobile</strong><br><a href="tel:0615735362">06 15 73 53 62</a></div></div>
-        <div class="contact-item"><span>📧</span><div><strong>Email</strong><br><a href="mailto:pierre.dulac@9business.fr">pierre.dulac@9business.fr</a></div></div>
-      </div>
-      <p style="margin-top:1.2rem;color:var(--muted);">Intervention sur Annecy, Cran-Gevrier, Seynod et communes environnantes.</p>
-    </div>
-  </section>
-
-</div>
-
-<footer>
-  Agir Plomberie SARL – SIREN 451 809 677 – Plombier chauffagiste certifié à Annecy (74)<br>
-  Site créé pour démonstration.
-</footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
